@@ -39,4 +39,3 @@ jobs:
         with:
           name: jamiati-release-apk
           path: jamiati_flutter/build/app/outputs/flutter-apk/app-release.apk
-
