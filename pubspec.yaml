@@ -1,0 +1,56 @@
+
+name: jamiati
+description: تطبيق جامعتي لخدمة طلاب الجامعات
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+  firebase_storage: ^12.4.10
+
+  # Google Login
+  google_sign_in: ^6.3.0
+
+  # الصور والملفات
+  image_picker: ^1.1.2
+  file_picker: ^10.3.2
+  cached_network_image: ^3.4.1
+
+  # واجهة التطبيق
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.2.0
+
+  # إدارة البيانات
+  provider: ^6.1.5
+  shared_preferences: ^2.5.3
+  uuid: ^4.5.1
+
+  # الإنترنت والذكاء الاصطناعي
+  http: ^1.4.0
+
+  # التاريخ والوقت
+  intl: ^0.20.2
+
+  # الروابط
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
